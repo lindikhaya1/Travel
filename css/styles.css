@@ -1,0 +1,200 @@
+/* ### imports #### */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Fredericka+the+Great&family=Marck+Script&family=Nunito&family=Playball&family=Special+Elite&display=swap');
+
+/* ### layout ### */
+        
+        body{
+        	margin:0;
+            font-family: 'Montserrat', sans-serif;
+           font-family: BlinkMacSystemFont,-apple-system,Roboto,Helvetica,Arial,sans-serif;
+		   font-family: 'Hind Siliguri', sans-serif;
+		}
+
+        .container{
+        	width:100%;
+
+        }
+        ul{
+        	list-style:none;
+        	margin-right:25px;
+        }
+        li{
+        	padding-top:12px;
+        }
+
+		header{
+			background-color:rgb(233,233,233);
+			padding-top:20px;
+			padding:5px;
+			text-align:center;
+		}
+		.container-2{
+			max-width:540px;
+			margin:0 auto;
+		}
+		
+
+		/* #### typograph ### */
+		.logo-style{
+            color:darkblue;
+            font-family: 'Bungee Inline', cursive;
+
+		} 
+		.slogan{
+              font-size:13px;
+              color: #1792b2;
+              position:relative;
+              bottom:15px;
+
+		}
+		.article-info{
+			font-style:italic;
+			font-size:12px;
+		}
+   
+        h3{
+        	margin-left:12px;
+        	margin-right:12px;
+        }
+		a{
+			text-decoration:none;
+			color:black;
+		}
+		a:hover{
+			color:darkblue;
+		} 
+
+		/* ### General styles ### */
+		.active{
+			border-bottom:3px solid #1792b2;
+			width:520px;
+		}
+		.article-body{
+			margin-left:12px;
+			margin-right:12px;
+			line-height:1.2em;
+		}
+		.article-info{
+			margin-left:12px;
+			margin-right:12px;
+	
+		}
+		.read-more{
+			margin-right:12px;
+			margin-left:12px;
+			color:#1792b2;
+		}
+		.read-more:hover{
+			text-decoration:underline;
+		}
+
+		.sidebar-widget-body{
+			margin-right:12px;
+			margin-left:12px;
+			
+			
+		}
+		footer{
+			width:100%;
+			height:100px;
+			background-color:rgb(233,233,233);
+		}
+
+		.fab{
+			font-size:25px;
+			position:relative;
+			left:55px;
+			padding:23px;
+		}
+		.twitter:hover{
+			color:rgb(51,153,255);
+		}
+		.pinterest:hover{
+			color:rgb(255,0,0);
+		}
+		.main-article-image{
+			display:none;
+		}
+        .copy-rights{
+			margin-left:25%;
+	    }
+
+		/* ### media objects ### */
+		img{
+			width:100%;
+			
+		}
+        /* ### My media queries ## */
+        /*for medium size screens*/
+        @media(max-width:750px){
+
+        }
+
+
+        /* for large screens */
+		@media(min-width:990px){
+			/* ### media objects ### */
+			
+			.logo-style, .slogan{
+                  margin-right:900px;
+			}
+
+            .article-image{
+				width:180px;
+				height:200px;
+				border-radius:5px;
+			}
+			
+
+			/* ### layout ### */
+			ul{
+				display:flex;
+				justify-content:flex-end;
+			}
+			li{
+				padding-left:25px;
+			}
+			.flex{
+				display:flex;
+				justify-content:space-between;
+			}
+			.container-2{
+				max-width:980px;
+			}
+			.sidebar{
+				max-height:600px;
+				width:75vh;
+				padding-left:15px;
+				
+			}
+			.main-article-container{
+				width:100vw;
+			}
+			.main-article-image{
+				display:inline-block;
+			}
+			
+			/* ### typography ##*/
+			.article-body{
+				padding-top:4.5em;
+				font-weight:lighter;
+				font-size:15px;
+			}
+
+			/* ### general styles ### */
+			.fab{
+				position:relative;
+				left:460px;
+			}
+			.aside-image{
+				border-radius:100%;
+				width:30%;
+				height:7%;
+			}
+			.copy-rights{
+				margin-left:38%;
+			}
+			
+		}
+		     
