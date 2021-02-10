@@ -165,7 +165,7 @@
 			.sidebar{
 				max-height:600px;
 				width:75vh;
-				padding-left:15px;
+				padding-left:15%;
 				
 			}
 			.main-article-container{
@@ -194,6 +194,13 @@
 			}
 			.copy-rights{
 				margin-left:38%;
+			}
+			.account-name{
+                font-weight:bold;
+				font-style:italic;
+				position:relative;
+				bottom:15px;
+				left:5%;
 			}
 			
 		}
