@@ -7,3 +7,5 @@ travel.addEventListener('click', function(){
     location = travel.getAttribute('href');
     location = 'pages/travel_fashion.html';
 })
+
+console.log(window.onkeydown);
